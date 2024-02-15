@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import NewsList from '/NewsList';
+import NewsList from './NewsList.js';
 
 const App = () => {
   return (
