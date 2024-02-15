@@ -1,4 +1,3 @@
-// src/NewsList.js
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, ActivityIndicator, StyleSheet, Image, TouchableOpacity, Linking, TextInput, Button } from 'react-native';
 import axios from 'axios';
@@ -53,8 +52,7 @@ const NewsList = () => {
   };
 
   const handleSearch = () => {
-    // Perform search based on searchQuery
-    // We're updating filteredArticles state in the useEffect hook
+    
   };
 
   if (loading) {
